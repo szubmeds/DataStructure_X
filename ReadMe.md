@@ -51,7 +51,8 @@ This allows you to stage only portions of a modified file. Gone are the days of 
 
 -----------------------------------------------------------
 #### Basic Command
->> All refer to [link of git references]('https://git-scm.com/docs')
+>> All refer to 
+[link of git references]('https://git-scm.com/docs')
 
 * `git init`: Create an empty Git repository or reinitialize an existing one.
 
