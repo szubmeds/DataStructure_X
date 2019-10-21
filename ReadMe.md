@@ -18,7 +18,7 @@
 ***Distributed*** : offline & online contibutes together.
 * **Subversion-Style Workflow**
 A centralized workflow is very common, especially from people transitioning from a centralized system. Git will not allow you to push if someone has pushed since the last time you fetched, so a centralized model where all developers push to the same server works just fine.
-![Subversion-Style](./Subversion-Style.png)
+![Subversion-Style](./Subversion_Style.png)
 
 * **Intergration Manager Workflow**
 Another common Git workflow involves an integration manager — a single person who commits to the 'blessed' repository. A number of developers then clone from that repository, push to their own independent repositories, and ask the integrator to pull in their changes. This is the type of development model often seen with open source or GitHub repositories.
