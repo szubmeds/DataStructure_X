@@ -23,11 +23,11 @@ A centralized workflow is very common, especially from people transitioning from
 
 * **Intergration Manager Workflow**
 Another common Git workflow involves an integration manager — a single person who commits to the 'blessed' repository. A number of developers then clone from that repository, push to their own independent repositories, and ask the integrator to pull in their changes. This is the type of development model often seen with open source or GitHub repositories.
-![Intergration Manager](./Intergration_Manager.png)
+![Intergration Manager](./photo/Intergration_Manager.png)
 
 * **Dictator and Lieutenants Workflow**
 For more massive projects, a development workflow like that of the Linux kernel is often effective. In this model, some people ('lieutenants') are in charge of a specific subsystem of the project and they merge in all changes related to that subsystem. Another integrator (the 'dictator') can pull changes from only his/her lieutenants and then push to the 'blessed' repository that everyone then clones from again.
-![Dictator and Lieutenants](./Dictator_Lieutenants.png)
+![Dictator and Lieutenants](./photo/Dictator_Lieutenants.png)
 
 ***Branching and Merging***: This means that you can do things like:
 * **Frictionless Context Switching**. 
@@ -40,14 +40,14 @@ Create new branches for each new feature you're working on so you can seamlessly
 * **Disposable Experimentation.**
 Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).
 
-![Branch & Merge](./branches.png)
+![Branch & Merge](./photo/branches.png)
 
 ***Staging Area***
 Unlike the other systems, Git has something called the "staging area" or "index". This is an intermediate area where commits can be formatted and reviewed before completing the commit.
 One thing that sets Git apart from other tools is that it's possible to quickly stage some of your files and commit them without committing all of the other modified files in your working directory or having to list them on the command line during the commit.
 This allows you to stage only portions of a modified file. Gone are the days of making two logically unrelated modifications to a file before you realized that you forgot to commit one of them. Now you can just stage the change you need for the current commit and stage the other change for the next commit. This feature scales up to as many different changes to your file as needed.
 
-![Staging Area](./StageArea.png)
+![Staging Area](./photo/StageArea.png)
 
 -----------------------------------------------------------
 #### Basic Command
