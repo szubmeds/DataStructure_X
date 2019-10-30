@@ -78,4 +78,3 @@ This allows you to stage only portions of a modified file. Gone are the days of 
 
 * `git checkout branch`: Switch branches or restore working tree files.
 
-
